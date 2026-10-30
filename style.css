@@ -1,0 +1,178 @@
+body {
+    background-color: #f0f4ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    color: #3730a3;
+    font-size: 36px;
+}
+
+h2 {
+    color: #2563eb;
+}
+
+h3 {
+    color: #7c3aed;
+}
+
+p {
+    color: #444444;
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* Navigation Bar */
+
+nav {
+    background-color: #3730a3;
+    padding: 18px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+/* Hover Effect */
+
+nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* Horizontal Line */
+
+hr {
+    border: 1px solid #cccccc;
+}
+/* Profile Photo */
+
+.profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #3730a3;
+    margin-top: 20px;
+}
+
+/* Profile Section */
+
+.profile {
+    padding: 20px;
+    text-align: center;
+}
+/* Professional website design */
+
+body {
+    background-color: #f0f4ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+nav {
+    background-color: #3730a3;
+    padding: 18px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.profile {
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #3730a3;
+}
+
+h1 {
+    color: #3730a3;
+}
+
+h2 {
+    color: #2563eb;
+}
+
+h3 {
+    color: #7c3aed;
+}
+
+p {
+    color: #444;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+form {
+    background: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+    width: 90%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #3730a3;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+footer {
+    background-color: #3730a3;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-size: 14px;
+}

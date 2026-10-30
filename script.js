@@ -1,0 +1,18 @@
+$(document).ready(function() {
+
+    $("#contactForm").submit(function(event) {
+
+        event.preventDefault();
+
+        var name = $("#name").val();
+        var email = $("#email").val();
+        var message = $("#message").val();
+
+        $("#result").html(
+            "Thank you " + name +
+            "! Your form has been submitted successfully."
+        );
+
+    });
+
+});
