@@ -6,6 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Let's Connect | Shradha</title>
     <link rel="stylesheet" href="style.css">
+    
+<style>
+.contact-container {
+    width: calc(100% - 40px) !important;
+    max-width: 1000px !important;
+    margin: 45px auto !important;
+    padding: 30px !important;
+    display: grid !important;
+    grid-template-columns: 0.85fr 1.15fr !important;
+    gap: 30px !important;
+    align-items: start !important;
+    background: white !important;
+    border: 1px solid #e8defe !important;
+    border-radius: 22px !important;
+    box-shadow: 0 10px 30px rgba(100,70,160,0.10) !important;
+    box-sizing: border-box !important;
+}
+
+.contact-info {
+    padding: 10px !important;
+    min-width: 0;
+}
+
+.contact-info h1 {
+    font-size: 32px !important;
+    color: #493477 !important;
+}
+
+.contact-info p {
+    line-height: 1.8;
+    overflow-wrap: anywhere;
+}
+
+.contact-form {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+    padding: 24px !important;
+    background: #faf8ff !important;
+    border: 1px solid #eee6ff;
+    border-radius: 16px;
+    box-sizing: border-box;
+    min-width: 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 12px !important;
+    border: 1px solid #d9ccf5 !important;
+    border-radius: 9px !important;
+    background: white !important;
+    color: #493477 !important;
+}
+
+.contact-form button {
+    padding: 14px !important;
+    background: #8f75e8 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 10px !important;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .contact-container {
+        grid-template-columns: 1fr !important;
+        padding: 18px !important;
+        margin: 20px auto !important;
+    }
+
+    .contact-form {
+        padding: 16px !important;
+    }
+}
+</style>
+
 </head>
 
 <body>
