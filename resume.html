@@ -1,58 +1,150 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Resume</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shradha Biradar | Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="resume.html">Resume</a>
-        <a href="biodata.html">Bio-Data</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.html" class="logo">Shradha<span>.</span></a>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="resume.html" class="active">Resume</a>
+            <a href="biodata.html">Bio-Data</a>
+            <a href="contact.html">Contact</a>
+            <a href="https://forms.gle/ySdd15DBaQxtAJUVA"
+               target="_blank" rel="noopener noreferrer"
+               class="add-button">Add Resume / Bio-Data ↗</a>
+        </div>
     </nav>
 
-    <div class="profile">
+    <main class="resume-page">
 
-        <h1>My Resume</h1>
-        <h2>Shradha Biradar</h2>
-        <p>Computer Science Engineering Student</p>
+        <section class="resume-header">
+            <p class="section-label">MY PROFESSIONAL PROFILE</p>
+            <h1>Shradha Biradar</h1>
+            <h2>Computer Science Engineering Student</h2>
+            <p>
+                Passionate about programming, web development
+                and learning new technologies.
+            </p>
+            <a href="contact.html" class="primary-button">
+                Contact Me →
+            </a>
+        </section>
 
-        <hr>
+        <div class="resume-content">
 
-        <h3>Career Objective</h3>
-        <p>To build a successful career in the IT field by improving my technical and programming skills.</p>
+            <section class="resume-card">
+                <div class="resume-section-heading">
+                    <span class="resume-icon">🎯</span>
+                    <h3>Career Objective</h3>
+                </div>
+                <p>
+                    To build a successful career in the IT field
+                    by improving my technical and programming skills
+                    and contributing to meaningful projects.
+                </p>
+            </section>
 
-        <h3>Educational Qualification</h3>
+            <section class="resume-card">
+                <div class="resume-section-heading">
+                    <span class="resume-icon">🎓</span>
+                    <h3>Educational Qualification</h3>
+                </div>
 
-        <h4>Engineering</h4>
-        <p>Course: Computer Science Engineering</p>
-        <p>College: KLEIT,Hubli</p>
+                <div class="education-item">
+                    <span class="timeline-dot"></span>
+                    <div>
+                        <h4>Engineering</h4>
+                        <p>Computer Science Engineering</p>
+                        <p class="detail-text">KLEIT, Hubli</p>
+                    </div>
+                </div>
 
-        <h4>PUC</h4>
-        <p>College: SBR,Kalburagi</p>
+                <div class="education-item">
+                    <span class="timeline-dot"></span>
+                    <div>
+                        <h4>Pre-University Course (PUC)</h4>
+                        <p>SBR, Kalaburagi</p>
+                    </div>
+                </div>
 
-        <h4>SSLC</h4>
-        <p>School: SSSMS,Kalburagi</p>
+                <div class="education-item">
+                    <span class="timeline-dot"></span>
+                    <div>
+                        <h4>SSLC</h4>
+                        <p>SSSMS, Kalaburagi</p>
+                    </div>
+                </div>
+            </section>
 
-        <h3>Technical Skills</h3>
-        <p>HTML, CSS, Java, C Programming</p>
+            <section class="resume-card">
+                <div class="resume-section-heading">
+                    <span class="resume-icon">💻</span>
+                    <h3>Technical Skills</h3>
+                </div>
 
-        <h3>Personal Skills</h3>
-        <p>Communication, Teamwork, Problem Solving</p>
+                <div class="skill-list">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">C Programming</span>
+                </div>
+            </section>
 
-        <h3>Projects</h3>
-        <p>Resume and Bio-Data Website</p>
+            <section class="resume-card">
+                <div class="resume-section-heading">
+                    <span class="resume-icon">🌟</span>
+                    <h3>Personal Skills</h3>
+                </div>
 
-        <h3>Declaration</h3>
-        <p>I hereby declare that the above information is true to the best of my knowledge.</p>
+                <div class="skill-list">
+                    <span class="skill-tag">Communication</span>
+                    <span class="skill-tag">Teamwork</span>
+                    <span class="skill-tag">Problem Solving</span>
+                </div>
+            </section>
 
-    </div>
-<footer>
-    <p>© 2026 Shradha Biradar | All Rights Reserved</p>
-    <p>Personal Resume and Bio-Data Website</p>
-</footer>
+            <section class="resume-card">
+                <div class="resume-section-heading">
+                    <span class="resume-icon">🚀</span>
+                    <h3>Projects</h3>
+                </div>
+                <h4>Resume and Bio-Data Website</h4>
+                <p>
+                    Designed a personal website using HTML and CSS
+                    to present resume details, bio-data and contact
+                    information.
+                </p>
+            </section>
+
+            <section class="resume-card">
+                <div class="resume-section-heading">
+                    <span class="resume-icon">📜</span>
+                    <h3>Declaration</h3>
+                </div>
+                <p>
+                    I hereby declare that the above information
+                    is true to the best of my knowledge.
+                </p>
+                <p class="signature">Shradha Biradar</p>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Shradha Biradar | All Rights Reserved</p>
+        <p>Personal Resume and Bio-Data Website</p>
+    </footer>
 
 </body>
 </html>
+
