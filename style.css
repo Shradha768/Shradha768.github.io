@@ -357,4 +357,160 @@ select {
     border: 1px solid #dcd2f2;
     border-radius: 9px;
     outline: none;
-    transition: 0.2
+    transition: 0.2s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #987fe9;
+    box-shadow: 0 0 0 3px rgba(152, 127, 233, 0.14);
+}
+
+textarea {
+    resize: vertical;
+}
+
+button,
+input[type="submit"] {
+    width: auto;
+    padding: 12px 22px;
+    background: #8f75e8;
+    color: #ffffff;
+    border: none;
+    border-radius: 9px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background: #7357ce;
+    transform: translateY(-2px);
+}
+
+/* TABLES, IF USED ON RESUME OR BIO-DATA */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #ffffff;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #e5dcf7;
+    text-align: left;
+}
+
+th {
+    background: #eee8ff;
+    color: #493477;
+}
+
+tr:nth-child(even) {
+    background: #faf8ff;
+}
+
+/* LINKS */
+main a:not(.primary-button):not(.secondary-button):not(.page-card) {
+    color: #8064d8;
+}
+
+main a:hover {
+    color: #6548bd;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 28px 15px;
+    background: #ffffff;
+    border-top: 1px solid #e9e1fb;
+    color: #817590;
+    font-size: 13px;
+}
+
+footer p + p {
+    margin-top: 5px;
+}
+
+/* MOBILE FRIENDLY DESIGN */
+@media (max-width: 900px) {
+    .feature-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    .nav-links {
+        justify-content: center;
+    }
+
+    .profile {
+        margin: 30px 5%;
+    }
+}
+
+@media (max-width: 600px) {
+    nav {
+        padding: 18px 5%;
+    }
+
+    .nav-links {
+        gap: 13px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    .hero {
+        min-height: auto;
+        padding: 70px 6%;
+    }
+
+    .about-section,
+    .website-section {
+        padding: 50px 6%;
+    }
+
+    .about-section h2,
+    .website-section h2 {
+        font-size: 28px;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-card,
+    .page-card {
+        padding: 23px;
+    }
+
+    .profile {
+        margin: 25px 4%;
+        padding: 24px 20px;
+    }
+
+    form {
+        margin: 20px 4%;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}
+```
