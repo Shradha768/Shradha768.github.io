@@ -682,18 +682,20 @@ footer p + p {
     }
 }
 
-/* Home Page Profile Photo */
+/* Professional Profile Photo */
 .profile-photo {
     display: flex;
     justify-content: center;
-    margin-bottom: 25px;
+    margin-bottom: 18px;
 }
 
 .profile-photo img {
-    width: 180px;
-    height: 180px;
+    width: 110px;
+    height: 110px;
     object-fit: cover;
+    object-position: center;
     border-radius: 50%;
-    border: 5px solid #e8dcff;
-    box-shadow: 0 8px 25px rgba(120, 80, 180, 0.18);
+    border: 3px solid #e8dcff;
+    box-shadow: 0 4px 12px rgba(80, 50, 120, 0.12);
 }
+
