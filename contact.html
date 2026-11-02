@@ -1,9 +1,86 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Contact Me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Connect | Shradha</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        .contact-container {
+            max-width: 850px;
+            margin: 50px auto;
+            padding: 35px;
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 30px;
+            background: #172335;
+            color: white;
+            border-radius: 22px;
+            box-shadow: 0 10px 35px rgba(0,0,0,0.2);
+        }
+
+        .contact-info h1 {
+            color: #a7f3d0;
+            font-size: 36px;
+        }
+
+        .contact-info p {
+            line-height: 1.8;
+            color: #d1dbe8;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 14px;
+            border: 1px solid #40516a;
+            border-radius: 10px;
+            background: #0f1928;
+            color: white;
+            font: inherit;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            outline: 2px solid #a7f3d0;
+        }
+
+        .contact-form button {
+            padding: 14px;
+            border: none;
+            border-radius: 10px;
+            background: #a7f3d0;
+            color: #172335;
+            font-weight: bold;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .contact-form button:hover {
+            background: #6ee7b7;
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 650px) {
+            .contact-container {
+                grid-template-columns: 1fr;
+                margin: 20px;
+                padding: 22px;
+            }
+        }
+    </style>
 </head>
+
 <body>
 
     <nav>
@@ -13,39 +90,58 @@
         <a href="contact.html">Contact</a>
     </nav>
 
-    <div class="profile">
+    <main class="contact-container">
 
-        <h1>Contact Me</h1>
-        <p>Feel free to contact me using the form below.</p>
+        <section class="contact-info">
+            <h1>Let's Connect ✨</h1>
 
-        <form id="contactForm">
+            <h2>Have a project in mind?</h2>
 
-            <label>Your Name:</label><br>
-            <input type="text" id="name" placeholder="Enter your name" required>
-            <br><br>
+            <p>
+                I'd love to hear from you! Whether you have
+                a question, an opportunity, or just want to
+                connect, feel free to send me a message.
+            </p>
 
-            <label>Email Address:</label><br>
-            <input type="email" id="email" placeholder="Enter your email" required>
-            <br><br>
+            <p>💌 Let's create something amazing together!</p>
 
-            <label>Your Message:</label><br>
-            <textarea id="message" rows="5" placeholder="Write your message" required></textarea>
-            <br><br>
+            <p>🎓 Computer Science Engineering Student</p>
+        </section>
 
-            <button type="submit">Submit</button>
+        <form class="contact-form"
+              action="https://formsubmit.co/biradarss474@gmail.com"
+              method="POST">
+
+            <input type="hidden" name="_subject"
+                   value="New message from Shradha's website">
+
+            <input type="hidden" name="_captcha" value="true">
+
+            <input type="hidden" name="_template" value="table">
+
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5"
+                      placeholder="Write something nice..."
+                      required></textarea>
+
+            <button type="submit">Send Message 🚀</button>
 
         </form>
 
-        <p id="result"></p>
+    </main>
 
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="script.js"></script>
-<footer>
-    <p>© 2026 Shradha Biradar | All Rights Reserved</p>
-    <p>Personal Resume and Bio-Data Website</p>
-</footer>
+    <footer>
+        <p>© 2026 Shradha Biradar | All Rights Reserved</p>
+        <p>Made with creativity 💚</p>
+    </footer>
 
 </body>
 </html>
