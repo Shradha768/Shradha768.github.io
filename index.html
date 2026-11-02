@@ -1,54 +1,120 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Personal Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shradha Biradar | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="resume.html">Resume</a>
-        <a href="biodata.html">Bio-Data</a>
-        <a href="contact.html">Contact</a>
-        <a href="https://forms.gle/ySdd15DBaQxtAJUVA">Add Resume / Bio-Data</a>
+        <a href="index.html" class="logo">Shradha<span>.</span></a>
+
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="biodata.html">Bio-Data</a>
+            <a href="contact.html">Contact</a>
+            <a href="https://forms.gle/ySdd15DBaQxtAJUVA"
+               target="_blank" rel="noopener noreferrer"
+               class="add-button">Add Resume / Bio-Data ↗</a>
+        </div>
     </nav>
 
-    <div class="profile">
+    <main>
+        <section class="hero">
+            <p class="intro-label">WELCOME TO MY PERSONAL WEBSITE</p>
 
-        <img src="images/profile.jpg"
-             alt="My Profile Photo"
-             class="profile-pic">
+            <h1>Hello, I'm <span>Shradha Biradar</span></h1>
 
-        <h1>Welcome to My Website</h1>
+            <h2>Computer Science Engineering Student</h2>
 
-        <h2>Hello, I am Shradha!</h2>
+            <p class="hero-description">
+                I am passionate about programming, web development
+                and exploring new technologies. This is my personal
+                space to showcase my resume, bio-data and learning journey.
+            </p>
 
-        <p>
-            I am a Computer Science Engineering student.
-            Welcome to my personal resume and bio-data website.
-        </p>
+            <div class="hero-buttons">
+                <a href="resume.html" class="primary-button">
+                    Explore My Resume →
+                </a>
 
-        <h3>About Me</h3>
+                <a href="contact.html" class="secondary-button">
+                    Contact Me
+                </a>
+            </div>
 
-        <p>
-            I am interested in learning programming,
-            web development and new technologies.
-        </p>
+            <div class="hero-note">
+                <span class="status-dot"></span>
+                Learning today. Building for tomorrow.
+            </div>
+        </section>
 
-        <h3>My Career Goal</h3>
+        <section class="about-section">
+            <p class="section-label">GET TO KNOW ME</p>
+            <h2>About Me</h2>
 
-        <p>
-            To become a successful software professional
-            and improve my technical skills.
-        </p>
+            <p class="about-description">
+                I am a Computer Science Engineering student who enjoys
+                learning new concepts, solving problems and developing
+                useful digital experiences. I believe every new skill
+                is a step towards becoming a better software professional.
+            </p>
 
-    </div>
-<footer>
-    <p>© 2026 Shradha Biradar | All Rights Reserved</p>
-    <p>Personal Resume and Bio-Data Website</p>
-</footer>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💻</div>
+                    <h3>Programming</h3>
+                    <p>Improving my coding skills and logical thinking.</p>
+                </div>
 
-</body>
-</html>
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>Web Development</h3>
+                    <p>Learning to build attractive and user-friendly websites.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>My Career Goal</h3>
+                    <p>Growing into a skilled software professional.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="website-section">
+            <p class="section-label">EXPLORE MY WEBSITE</p>
+            <h2>Discover More</h2>
+
+            <div class="feature-grid">
+                <a href="resume.html" class="page-card">
+                    <span class="card-number">01</span>
+                    <h3>My Resume</h3>
+                    <p>Explore my education, skills and career profile.</p>
+                    <span class="card-link">View Resume →</span>
+                </a>
+
+                <a href="biodata.html" class="page-card">
+                    <span class="card-number">02</span>
+                    <h3>My Bio-Data</h3>
+                    <p>Learn more about my personal and educational details.</p>
+                    <span class="card-link">View Bio-Data →</span>
+                </a>
+
+                <a href="contact.html" class="page-card">
+                    <span class="card-number">03</span>
+                    <h3>Contact Me</h3>
+                    <p>Get in touch with me through my contact page.</p>
+                    <span class="card-link">Send a Message →</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Shradha Biradar | All Rights Reserved</p>
+        <p>Designed with care · Personal Portfolio Website
