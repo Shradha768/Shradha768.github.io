@@ -6,93 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Let's Connect | Shradha</title>
     <link rel="stylesheet" href="style.css">
-
-    <style>
-        .contact-container {
-            max-width: 850px;
-            margin: 50px auto;
-            padding: 35px;
-            display: grid;
-            grid-template-columns: 1fr 1.2fr;
-            gap: 30px;
-            background: #172335;
-            color: white;
-            border-radius: 22px;
-            box-shadow: 0 10px 35px rgba(0,0,0,0.2);
-        }
-
-        .contact-info h1 {
-            color: #a7f3d0;
-            font-size: 36px;
-        }
-
-        .contact-info p {
-            line-height: 1.8;
-            color: #d1dbe8;
-        }
-
-        .contact-form {
-            display: flex;
-            flex-direction: column;
-            gap: 14px;
-        }
-
-        .contact-form input,
-        .contact-form textarea {
-            width: 100%;
-            box-sizing: border-box;
-            padding: 14px;
-            border: 1px solid #40516a;
-            border-radius: 10px;
-            background: #0f1928;
-            color: white;
-            font: inherit;
-        }
-
-        .contact-form input:focus,
-        .contact-form textarea:focus {
-            outline: 2px solid #a7f3d0;
-        }
-
-        .contact-form button {
-            padding: 14px;
-            border: none;
-            border-radius: 10px;
-            background: #a7f3d0;
-            color: #172335;
-            font-weight: bold;
-            font-size: 16px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
-
-        .contact-form button:hover {
-            background: #6ee7b7;
-            transform: translateY(-2px);
-        }
-
-        @media (max-width: 650px) {
-            .contact-container {
-                grid-template-columns: 1fr;
-                margin: 20px;
-                padding: 22px;
-            }
-        }
-    </style>
 </head>
 
 <body>
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="resume.html">Resume</a>
-        <a href="biodata.html">Bio-Data</a>
-        <a href="contact.html">Contact</a>
+        <div class="logo">Shradha's Portfolio</div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="biodata.html">Bio-Data</a>
+            <a href="contact.html">Contact</a>
+            <a href="https://forms.gle/ySdd15DBaQxtAJUVA"
+               class="add-button">Add Resume / Bio-Data</a>
+        </div>
     </nav>
 
     <main class="contact-container">
 
         <section class="contact-info">
+            <p class="hero-tag">LET'S CONNECT</p>
             <h1>Let's Connect ✨</h1>
 
             <h2>Have a project in mind?</h2>
@@ -106,6 +40,11 @@
             <p>💌 Let's create something amazing together!</p>
 
             <p>🎓 Computer Science Engineering Student</p>
+
+            <div class="contact-note">
+                <h3>Get in Touch</h3>
+                <p>Send me a message using the form, and I'll look forward to hearing from you!</p>
+            </div>
         </section>
 
         <form class="contact-form"
@@ -132,7 +71,7 @@
                       placeholder="Write something nice..."
                       required></textarea>
 
-            <button type="submit">Send Message 🚀</button>
+            <button type="submit">Send Message 💜</button>
 
         </form>
 
@@ -140,8 +79,9 @@
 
     <footer>
         <p>© 2026 Shradha Biradar | All Rights Reserved</p>
-        <p>Made with creativity 💚</p>
+        <p>Made with creativity 💜</p>
     </footer>
 
 </body>
 </html>
+
